@@ -1,0 +1,8 @@
+*.pyc
+*~
+__pycache__
+virtenv
+virtualenv
+db.sqlite3
+/static
+.DB_Store
