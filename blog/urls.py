@@ -9,4 +9,8 @@ urlpatterns = [path('', views.post_list, name='post_list'),
                path('drafts/', views.post_draft_list, name='post_draft_list'),
                path('post/<pk>/post_publish/', views.post_publish, name='post_publish'),
                path('post/<pk>post_remove/', views.post_remove, name='post_remove'),
+               path(r'post/(<?P<pk>\d+)/comment/$', views.add_comment_to_post, name='add_comment_to_post'),
+               path(r'post/(<?P<pk>\d+)/remove/$', views.comment_remove, name='comment_remove'),
+               path(r'post/(<?P<pk>\d+)/approve/$', views.comment_approve, name='comment_approve'),
+
                ]

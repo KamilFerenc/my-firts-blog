@@ -25,7 +25,7 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="1faae32f-1813-4c8f-8e98-276fbdf11048">
-        <schema name="main" object-types="table" />
+        <schema name="main" object-types="column, constraint, index, table, dataset trigger, view" />
       </connection>
     </loaded-nodes>
   </component>
@@ -38,7 +38,12 @@
     <connection id="1faae32f-1813-4c8f-8e98-276fbdf11048" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-list connection-id="1faae32f-1813-4c8f-8e98-276fbdf11048" dataset="main.auth_user" active-filter-id="EMPTY_FILTER" />
+    <filter-list connection-id="1faae32f-1813-4c8f-8e98-276fbdf11048" dataset="main.auth_user_user_permissions" active-filter-id="EMPTY_FILTER" />
+    <filter-list connection-id="1faae32f-1813-4c8f-8e98-276fbdf11048" dataset="main.blog_comment" active-filter-id="EMPTY_FILTER" />
     <filter-list connection-id="1faae32f-1813-4c8f-8e98-276fbdf11048" dataset="main.blog_post" active-filter-id="EMPTY_FILTER" />
+    <filter-list connection-id="1faae32f-1813-4c8f-8e98-276fbdf11048" dataset="main.django_admin_log" active-filter-id="EMPTY_FILTER" />
+    <filter-list connection-id="1faae32f-1813-4c8f-8e98-276fbdf11048" dataset="main.auth_permission" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
